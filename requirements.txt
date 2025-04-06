@@ -1,0 +1,7 @@
+numpy
+pandas
+random
+datatime
+enum
+matplotlib.pyplot
+yfinance
