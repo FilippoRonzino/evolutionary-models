@@ -8949,7 +8949,7 @@ Best Portfolio (Highest Sharpe - 0.9505):
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>This project successfully demonstrated the application of the Non-dominated Sorting Genetic Algorithm II (NSGA-II) to the classic portfolio optimization problem. By formulating the task as a multi-objective optimization problem—simultaneously maximizing expected return and minimizing portfolio variance (risk)—we leveraged the strengths of NSGA-II in handling conflicting objectives and exploring complex search spaces.</p>
+<p>This project successfully demonstrated the application of the Non-dominated Sorting Genetic Algorithm II (NSGA-II) to the classic portfolio optimization problem. By formulating the task as a multi-objective optimization problem - simultaneously maximizing expected return and minimizing portfolio variance (risk) - we leveraged the strengths of NSGA-II in handling conflicting objectives and exploring complex search spaces.</p>
 <p>The implementation involved fetching historical stock data, calculating expected returns and the covariance matrix, and then employing the <code>PortfolioOptimizerGA</code> class. This class encapsulates the core NSGA-II logic, including non-dominated sorting, crowding distance calculation, selection, crossover (with options like SBX, blend, and uniform), and polynomial mutation, ensuring the generation of feasible portfolios (weights sum to 1, non-negative).</p>
 <p>The results, visualized through the efficient frontier plot, clearly show the trade-off between risk and return. The algorithm effectively identified a set of Pareto-optimal portfolios, representing the best possible compromises an investor can make given the selected assets and historical data. Furthermore, the ability to pinpoint specific portfolios, such as the one maximizing the Sharpe ratio (starred in the plot), provides actionable insights for investment decisions.</p>
 <p>The use of a genetic algorithm like NSGA-II proves advantageous, particularly in scenarios where traditional quadratic programming methods might struggle due to non-convexities or the inclusion of complex real-world constraints (though only basic constraints were used here). The convergence plots indicated that the algorithm progressively improved the quality and diversity of solutions over generations.</p>
@@ -8962,12 +8962,12 @@ Best Portfolio (Highest Sharpe - 0.9505):
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
 
-<span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s1">'jupyter nbconvert --to html project.ipynb'</span><span class="p">)</span>
+<span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s1">'jupyter nbconvert --to html 30592_FilippoAntonioRonzino_Project.ipynb'</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8980,14 +8980,14 @@ Best Portfolio (Highest Sharpe - 0.9505):
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>[NbConvertApp] Converting notebook project.ipynb to html
+<pre>[NbConvertApp] Converting notebook 30592_FilippoAntonioRonzino_Project.ipynb to html
 [NbConvertApp] WARNING | Alternative text is missing on 2 image(s).
-[NbConvertApp] Writing 710294 bytes to project.html
+[NbConvertApp] Writing 719169 bytes to 30592_FilippoAntonioRonzino_Project.html
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[22]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[1]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>0</pre>
 </div>
